@@ -7,12 +7,12 @@
 body {
   margin: 20px 0;
   font-family: Arial, Helvetica, sans-serif;
-  font-size: 20px;
   line-height: 1.5;
 }
 
 p {
   margin: 0;
+  font-size: 20px;
 }
 
 a {
@@ -36,4 +36,14 @@ span {
 .stanza {
   text-align: center;
   margin-bottom: 15px;
+}
+
+@media (max-width: 400px) {
+  p {
+    font-size: 18px;
+  }
+
+  span {
+    font-size: 14px;
+  }
 }
